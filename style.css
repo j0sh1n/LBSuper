@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 1.5vh;
+}
+
+/* login */
+.parent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.error{
+    background-color: rgb(255, 228, 197);
+}
+
+.border {
+    border-style: solid;
+    border-color: rgb(255, 128, 0);
+    border-radius: 5px;
+}
+
+.child {
+    margin-top: 10vh;
+
+}
+
+.login {
+    border-width: 5px;
+    padding: 4rem;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vh;
+
+
+}
+/* body{
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.navbar-container {
+    position: fixed;
+    width: 15vw;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 136, 0);
+    height: 100vh;
+
+}
+
+.button {
+    text-decoration: none;
+    height: 5vh;
+    width: 10vw;
+    background: rgb(255, 234, 210);
+    text-align: center;
+    font-size: 2vh;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+.button:hover {
+    background: rgb(254, 187, 106);
+
+}
+
+.add {
+    margin-bottom: 10px;
+    width: 13vw;
+}
+
+.logout {
+    bottom: 10px;
+}
+
+.main-container {
+    overflow:auto;
+    background-color: rgb(255, 228, 197);
+    flex-grow: 1;
+    /* margin-left: 17vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table{
+    margin-left: 15vw;
+
+}
+
+.form-container {
+    width: 83vw;
+    margin-left: 15vw;
+    overflow: auto;
+    background-color: rgb(255, 228, 197);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    width: 45vw;
+}
+
+
+.form input[type=text] {
+    height: 3vh;
+    width: 20vw;
+}
+
+
+
+.form td,
+.form th {
+    padding: 1vh 1vw 1vh 2vw;
+    font-size: 3vh;
+}
+
+.form col:nth-child(odd) {
+    text-align: center;
+}
+
+.form th {
+    padding: 3vh 1vh 3vh 1vw;
+}
+
+.table td,
+.table th {
+    padding: 2vh 1vw 2vh 1vw;
+}
+
+.table tr:nth-child(odd) {
+    background-color: rgb(254, 195, 127);
+
+}
+
+.table tr:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+.table th {
+    text-align: center;
+    font-size: 2vh;
+    padding: 3vh 1vh 3vh 1vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+    background-color: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
+}
